@@ -36,6 +36,7 @@ function sortByArtistNameDescending(songs) {
     if (artistA < artistB) {
       return 1;
     }
+    return 0;
   });
   return songs;
 }
@@ -59,6 +60,7 @@ function sortBySongTitleAscending(songs) {
     if (titleA < titleB) {
       return -1;
     }
+    return 0;
   });
   return songs;
 }
